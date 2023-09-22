@@ -1,0 +1,287 @@
+<mxfile host="65bd71144e">
+    <diagram id="S2Z4-JZUkx37PYInA5Vl" name="Page-1">
+        <mxGraphModel dx="2265" dy="1868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#3B3B3B" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="13" value="" style="edgeStyle=elbowEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#263CFF;" parent="1" source="3" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="620" y="-60" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="&amp;nbsp;retour dans les beer league" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#263CFF;" parent="1" vertex="1">
+                    <mxGeometry x="405" y="-190" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=none;strokeColor=#263CFF;" parent="1" source="10" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="360" y="220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;strokeColor=#263CFF;" parent="1" source="37" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="555" y="220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="lever du it" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#263CFF;" parent="1" vertex="1">
+                    <mxGeometry x="410" y="-50" width="110" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#263CFF;" parent="1" source="4" target="50" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Arriver au camp d'entrainement du Canadien de Montréal" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#263CFF;" parent="1" vertex="1">
+                    <mxGeometry x="405" y="190" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#263CFF;" parent="1" source="5" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="750" y="-160"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="arreter par la police pour conduite en état&amp;nbsp;d'ébriété&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#263CFF;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="-25" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;strokeColor=#263CFF;" parent="1" source="9" target="5" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="580" y="120" as="sourcePoint"/>
+                        <mxPoint x="630" y="70" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#263CFF;" parent="1" source="3" target="9" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="520" y="5" as="sourcePoint"/>
+                        <mxPoint x="640" y="5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="boire une biere" style="text;strokeColor=#263CFF;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="-10" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;entryX=0.456;entryY=-0.072;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#263CFF;" parent="1" source="3" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="465" y="60" as="sourcePoint"/>
+                        <mxPoint x="465" y="190" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="465" y="80"/>
+                            <mxPoint x="360" y="80"/>
+                            <mxPoint x="360" y="128"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="boire un smoothie&amp;nbsp;" style="text;strokeColor=#263CFF;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="130" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;ul style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; font-family: verdana; color: rgb(0, 0, 0); font-size: 14.6667px; background-color: rgb(255, 255, 255);&quot; role=&quot;list&quot; class=&quot;BulletListStyle1 SCXO185597990 BCX9&quot;&gt;&lt;li style=&quot;margin: 0px 0px 0px 24px; padding-top: 0px; padding-bottom: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; display: block; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: baseline;&quot; class=&quot;OutlineElement Ltr SCXO185597990 BCX9&quot; data-aria-level=&quot;2&quot; role=&quot;listitem&quot; data-aria-posinset=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext;&quot; lang=&quot;FR-CA&quot; class=&quot;Paragraph SCXO185597990 BCX9&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 0px 24px; padding-top: 0px; padding-bottom: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; display: block; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: baseline;&quot; class=&quot;OutlineElement Ltr SCXO185597990 BCX9&quot; data-aria-level=&quot;2&quot; role=&quot;listitem&quot; data-aria-posinset=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext;&quot; lang=&quot;FR-CA&quot; class=&quot;Paragraph SCXO185597990 BCX9&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;Synopsis : un jeune homme doit faire des choix pour devenir&lt;br/&gt;la nouvelle légende du hockey professionnel. Tout ce qu’il doit faire c’est de&lt;br/&gt;faire des choix&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;professionnels et il&lt;br/&gt;pourra intégrer l’équipe.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 0px 24px; padding-top: 0px; padding-bottom: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; display: block; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: baseline;&quot; class=&quot;OutlineElement Ltr SCXO185597990 BCX9&quot; data-aria-level=&quot;2&quot; role=&quot;listitem&quot; data-aria-posinset=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext;&quot; lang=&quot;FR-CA&quot; class=&quot;Paragraph SCXO185597990 BCX9&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 0px 24px; padding-top: 0px; padding-bottom: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; display: block; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: baseline;&quot; class=&quot;OutlineElement Ltr SCXO185597990 BCX9&quot; data-aria-level=&quot;2&quot; role=&quot;listitem&quot; data-aria-posinset=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext;&quot; lang=&quot;FR-CA&quot; class=&quot;Paragraph SCXO185597990 BCX9&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: windowtext; font-size: 11pt; line-height: 25px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO185597990 BCX9&quot; data-contrast=&quot;auto&quot;&gt;Couleur de fond du site : &lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 25px; color: rgb(31, 73, 125);&quot; class=&quot;EOP SCXO185597990 BCX9&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt; letter-spacing: 0.4pt;&quot;&gt;#&lt;/span&gt;&lt;span style=&quot;font-size: 10pt; letter-spacing: 0.4pt; text-transform: uppercase;&quot;&gt;001C3D&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 0px 24px; padding-top: 0px; padding-bottom: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; display: block; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: baseline;&quot; class=&quot;OutlineElement Ltr SCXO185597990 BCX9&quot; data-aria-level=&quot;2&quot; role=&quot;listitem&quot; data-aria-posinset=&quot;2&quot;&gt;&lt;p style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext;&quot; lang=&quot;FR-CA&quot; class=&quot;Paragraph SCXO185597990 BCX9&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: windowtext; font-size: 11pt; line-height: 25px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO185597990 BCX9&quot; data-contrast=&quot;auto&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;&quot; class=&quot;NormalTextRun SCXO185597990 BCX9&quot;&gt;Couleur de fond du&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-repeat: repeat-x; background-position: left bottom; background-image: url(&amp;quot;data:image/gif;base64,R0lGODlhBQAEAJECAP////8AAAAAAAAAACH5BAEAAAIALAAAAAAFAAQAAAIIlGAXCCHrTCgAOw==&amp;quot;); border-bottom: 1px solid transparent; background-color: inherit;&quot; class=&quot;SpellingError SCXO185597990 BCX9&quot;&gt;contenu&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;&quot; class=&quot;NormalTextRun SCXO185597990 BCX9&quot;&gt;&amp;nbsp;: &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 25px; color: windowtext;&quot; class=&quot;EOP SCXO185597990 BCX9&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;#&lt;/span&gt;&lt;span style=&quot;font-size: 10pt; text-transform: uppercase; letter-spacing: 0.4pt;&quot;&gt;94C6E3&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 0px 24px; padding-top: 0px; padding-bottom: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; display: block; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: baseline;&quot; class=&quot;OutlineElement Ltr SCXO185597990 BCX9&quot; data-aria-level=&quot;2&quot; role=&quot;listitem&quot; data-aria-posinset=&quot;3&quot;&gt;&lt;p style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext;&quot; lang=&quot;FR-CA&quot; class=&quot;Paragraph SCXO185597990 BCX9&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: windowtext; font-size: 11pt; line-height: 25px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO185597990 BCX9&quot; data-contrast=&quot;auto&quot;&gt;Couleur de la police :&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt; letter-spacing: 0.4pt; text-transform: uppercase;&quot;&gt;#252422&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 0px 24px; padding-top: 0px; padding-bottom: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; display: block; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: baseline;&quot; class=&quot;OutlineElement Ltr SCXO185597990 BCX9&quot; data-aria-level=&quot;2&quot; role=&quot;listitem&quot; data-aria-posinset=&quot;4&quot;&gt;&lt;p style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext;&quot; lang=&quot;FR-CA&quot; class=&quot;Paragraph SCXO185597990 BCX9&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: windowtext; font-size: 11pt; line-height: 25px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO185597990 BCX9&quot; data-contrast=&quot;auto&quot;&gt;Couleur de fond des boutons : &lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 25px; color: windowtext;&quot; class=&quot;EOP SCXO185597990 BCX9&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt; letter-spacing: 0.4pt; text-transform: uppercase;&quot;&gt;#00A7E1&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 0px 24px; padding-top: 0px; padding-bottom: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; display: block; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: baseline;&quot; class=&quot;OutlineElement Ltr SCXO185597990 BCX9&quot; data-aria-level=&quot;2&quot; role=&quot;listitem&quot; data-aria-posinset=&quot;5&quot;&gt;&lt;p style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext;&quot; lang=&quot;FR-CA&quot; class=&quot;Paragraph SCXO185597990 BCX9&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: windowtext; font-size: 11pt; line-height: 25px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO185597990 BCX9&quot; data-contrast=&quot;auto&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;&quot; class=&quot;NormalTextRun SCXO185597990 BCX9&quot;&gt;Couleur de fond des boutons&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-repeat: repeat-x; background-position: left bottom; background-image: url(&amp;quot;data:image/gif;base64,R0lGODlhBQAEAJECAP////8AAAAAAAAAACH5BAEAAAIALAAAAAAFAAQAAAIIlGAXCCHrTCgAOw==&amp;quot;); border-bottom: 1px solid transparent; background-color: inherit;&quot; class=&quot;SpellingError SCXO185597990 BCX9&quot;&gt;en&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;&quot; class=&quot;NormalTextRun SCXO185597990 BCX9&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: windowtext; font-style: italic; font-size: 11pt; line-height: 25px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO185597990 BCX9&quot; data-contrast=&quot;auto&quot;&gt;hover&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: windowtext; font-size: 11pt; line-height: 25px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO185597990 BCX9&quot; data-contrast=&quot;auto&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt; letter-spacing: 0.4pt; text-transform: uppercase;&quot;&gt;#A8AAA4&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 0px 24px; padding-top: 0px; padding-bottom: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; display: block; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: baseline;&quot; class=&quot;OutlineElement Ltr SCXO185597990 BCX9&quot; data-aria-level=&quot;2&quot; role=&quot;listitem&quot; data-aria-posinset=&quot;6&quot;&gt;&lt;p style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext;&quot; lang=&quot;FR-CA&quot; class=&quot;Paragraph SCXO185597990 BCX9&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: windowtext; font-size: 11pt; line-height: 25px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO185597990 BCX9&quot; data-contrast=&quot;auto&quot;&gt;Couleur de la police des boutons :&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt; letter-spacing: 0.4pt; text-transform: uppercase;&quot;&gt;#D9E5D6&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 0px 24px; padding-top: 0px; padding-bottom: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; display: block; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: baseline;&quot; class=&quot;OutlineElement Ltr  BCX9 SCXO185597990&quot; data-aria-level=&quot;2&quot; role=&quot;listitem&quot; data-aria-posinset=&quot;7&quot;&gt;&lt;p style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext;&quot; lang=&quot;FR-CA&quot; class=&quot;Paragraph SCXO185597990 BCX9&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: windowtext; font-size: 11pt; line-height: 25px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO185597990 BCX9&quot; data-contrast=&quot;auto&quot;&gt;Couleur de la police des boutons&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: windowtext; font-size: 11pt; line-height: 25px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO185597990 BCX9&quot; data-contrast=&quot;auto&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-repeat: repeat-x; background-position: left bottom; background-image: url(&amp;quot;data:image/gif;base64,R0lGODlhBQAEAJECAP////8AAAAAAAAAACH5BAEAAAIALAAAAAAFAAQAAAIIlGAXCCHrTCgAOw==&amp;quot;); border-bottom: 1px solid transparent; background-color: inherit;&quot; class=&quot;SpellingError SCXO185597990 BCX9&quot;&gt;en&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;&quot; class=&quot;NormalTextRun SCXO185597990 BCX9&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: windowtext; font-style: italic; font-size: 11pt; line-height: 25px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO185597990 BCX9&quot; data-contrast=&quot;auto&quot;&gt;hover&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; color: windowtext; font-size: 11pt; line-height: 25px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO185597990 BCX9&quot; data-contrast=&quot;auto&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt; letter-spacing: 0.4pt; text-transform: uppercase;&quot;&gt;#3581B8&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#263CFF;" parent="1" vertex="1">
+                    <mxGeometry x="-240" y="-480" width="280" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;strokeColor=#263CFF;" parent="1" source="3" target="37" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="465" y="60" as="sourcePoint"/>
+                        <mxPoint x="525" y="220" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="465" y="80"/>
+                            <mxPoint x="555" y="80"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="Boire un verre d'eau" style="text;html=1;strokeColor=#263CFF;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="525" y="130" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;strokeColor=#263CFF;" parent="1" source="48" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="230" y="55" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="170" y="-160"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;strokeColor=#263CFF;" parent="1" source="39" target="48" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="oublier son baton et devoir retourner a la maison" style="text;html=1;strokeColor=#263CFF;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="308.75" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;strokeColor=#263CFF;" parent="1" source="40" target="61" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="faire un tour sur le vélo stationnaire près des vestiaires" style="text;html=1;strokeColor=#263CFF;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="403.75" y="440" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=12;strokeColor=#263CFF;" parent="1" source="41" target="55" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="Arriver 10 min en retard sur la glace" style="text;html=1;strokeColor=#263CFF;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="308.75" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="&lt;span style=&quot;color: rgb(240, 240, 240); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(24, 20, 29); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;dans le chemin retour tu as une conversation avec le directeur général&lt;br&gt;(CONFIANCE DU DG DÉBLOQUÉ)&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;strokeColor=#263CFF;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="30" width="160" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;strokeColor=#263CFF;" parent="1" source="50" target="39" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;strokeColor=#263CFF;" parent="1" source="50" target="41" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;strokeColor=#263CFF;" parent="1" source="50" target="40" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;tu dois etre sur la glace &lt;br&gt;dans 1 heure&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;strokeColor=#263CFF;" parent="1" vertex="1">
+                    <mxGeometry x="410" y="270" width="107.5" height="107.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;strokeColor=#263CFF;" parent="1" source="55" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="890" y="324"/>
+                            <mxPoint x="890" y="-160"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="Tu ne peux pas arrivé en retard tu es coupé du camp&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=12;strokeColor=#263CFF;" parent="1" vertex="1">
+                    <mxGeometry x="740" y="293.75" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="edgeStyle=none;html=1;fontSize=10;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#263CFF;" parent="1" source="61" target="73" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="350" y="564" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="67" value="" style="edgeStyle=none;html=1;fontSize=10;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#263CFF;" parent="1" source="61" target="74" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="611.6300000000001" y="563.94" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;strokeColor=#263CFF;" parent="1" source="61" target="78" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="463.75" y="670" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="61" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Arriver sur la glace tu te préapre pour lentraînement&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#263CFF;" parent="1" vertex="1">
+                    <mxGeometry x="399.81" y="500" width="127.88" height="127.88" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#263CFF;" parent="1" source="73" target="70" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="195.8699999999999" y="563.8571428571429" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;strokeColor=#263CFF;" parent="1" source="70" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="mais tu te prends pour qui, sors de la glace avant de blesser quelqu'un" style="whiteSpace=wrap;html=1;strokeColor=#263CFF;" parent="1" vertex="1">
+                    <mxGeometry x="-120" y="240" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;tu fais des tours de glace et tu tirs partout sur la glace&lt;/span&gt;" style="text;html=1;strokeColor=#263CFF;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="548.94" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;strokeColor=#263CFF;" parent="1" source="74" target="75" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;tu reste sur le banc a parlé aux partisants dans les estrades&lt;/span&gt;" style="text;html=1;strokeColor=#263CFF;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="630" y="549" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;strokeColor=#263CFF;" parent="1" source="75" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="les partisants ne sont pas supposé être une disarction, sors." style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;strokeColor=#263CFF;" parent="1" vertex="1">
+                    <mxGeometry x="990" y="240" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;strokeColor=#263CFF;" parent="1" source="78" target="79" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="tu fais tes étirements et tu fais des petits tirs dans les filets" style="text;html=1;strokeColor=#263CFF;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="388.75" y="690" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;strokeColor=#263CFF;" parent="1" source="79" target="81" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="suite a la pratique il y a une rencontre d'équipe" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;strokeColor=#263CFF;" parent="1" vertex="1">
+                    <mxGeometry x="404" y="780" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;strokeColor=#263CFF;" parent="1" source="81" target="83" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=13;strokeColor=#263CFF;" parent="1" source="81" target="85" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=13;strokeColor=#263CFF;" parent="1" source="81" target="88" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="tu dois arriver à la rencontre" style="rhombus;whiteSpace=wrap;html=1;fontSize=13;strokeColor=#263CFF;" parent="1" vertex="1">
+                    <mxGeometry x="403.75" y="890" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;strokeColor=#263CFF;" parent="1" source="83" target="90" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="tu décide d'aller manger ton diner" style="text;html=1;strokeColor=#263CFF;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="935" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;strokeColor=#263CFF;" parent="1" source="85" target="93" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="tu es fatigué tu vas aller faire une sieste" style="text;html=1;strokeColor=#263CFF;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="820" y="935" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=13;strokeColor=#263CFF;" parent="1" source="88" target="96" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="tu arrive d'avance et parle avec les autres joueurs." style="text;html=1;strokeColor=#263CFF;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="381.25" y="1100" width="165" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;strokeColor=#263CFF;" parent="1" source="90" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="ton diner peut attendre." style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;strokeColor=#263CFF;" parent="1" vertex="1">
+                    <mxGeometry x="-210" y="690" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;strokeColor=#263CFF;" parent="1" source="93" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="l'équipe doit passer avant ta personne" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;strokeColor=#263CFF;" parent="1" vertex="1">
+                    <mxGeometry x="1130" y="685" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=13;strokeColor=#263CFF;" parent="1" source="96" target="100" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="le directeur général veut te voir" style="whiteSpace=wrap;html=1;fontSize=13;strokeColor=#263CFF;" parent="1" vertex="1">
+                    <mxGeometry x="403.75" y="1195" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=13;strokeColor=#263CFF;" parent="1" source="100" target="102" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=13;strokeColor=#263CFF;" parent="1" source="100" target="103" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="as tu la confiance du DG ?" style="rhombus;whiteSpace=wrap;html=1;fontSize=13;strokeColor=#263CFF;" parent="1" vertex="1">
+                    <mxGeometry x="416.75" y="1300" width="94" height="94" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=13;strokeColor=#263CFF;" parent="1" source="102" target="106" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="OUI" style="text;html=1;strokeColor=#263CFF;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="433.75" y="1440" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=13;strokeColor=#263CFF;" parent="1" source="103" target="108" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="NON" style="text;html=1;strokeColor=#263CFF;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="1332" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="tu fais l'équipe&lt;br&gt;félicitation" style="whiteSpace=wrap;html=1;fontSize=13;strokeColor=#263CFF;" parent="1" vertex="1">
+                    <mxGeometry x="403.75" y="1535" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;strokeColor=#263CFF;" parent="1" source="108" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1270" y="1347"/>
+                            <mxPoint x="1270" y="-160"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="108" value="il ne veut pas t'avoir dans l'entourage de l'équipe" style="whiteSpace=wrap;html=1;fontSize=13;strokeColor=#263CFF;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="1317" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
