@@ -11,3 +11,5 @@
 [Junior Majeur, film de 2017](https://fr.wikipedia.org/wiki/Junior_majeur).
 
 **Palette de couleurs**: [coolors.co](https://coolors.co/94c6e3-001c3d-252422-00a7e1-a8aaa4-d9e5d6-3581b8)
+
+![schema](assets/images/schema.png)
