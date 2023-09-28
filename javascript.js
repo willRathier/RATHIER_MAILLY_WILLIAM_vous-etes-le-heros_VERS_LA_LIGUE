@@ -116,5 +116,7 @@ let chaptersObj = {
 function goToChapter(chapterName) {
   console.log(chaptersObj[chapterName].subtitle);
   console.log(chaptersObj[chapterName].text);
-  console.log(chaptersObj[chapterName].boutons);
+  for (let i = 0; i < [chapterName].boutons.length; i++) {
+    console.log([chapterName].boutons[i].destination);
+  }
 }
