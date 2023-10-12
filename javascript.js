@@ -7,12 +7,13 @@ let chaptersObj = {
     boutons: [
       { titre: "smoothie", destination: "biere" },
       { titre: "boire un verre d'eau", destination: "camp" },
-      { titre: "boire une bière", destination: "camp" },
+      { titre: "boire une bière", destination: "camp" }
     ],
   },
   biere: {
     subtitle: "Tu es pas très smat mon gars",
     text: "Tu te fais arrêter par la police pour conduite en état d'ébriété.",
+    img: "assets/images/biere.jpg",
     boutons: [{ titre: "next", destination: "out" }],
   },
   camp: {
@@ -23,7 +24,7 @@ let chaptersObj = {
     boutons: [
       { titre: "oublier son baton", destination: "theKey" },
       { titre: "arivver en retard", destination: "out" },
-      { titre: "faire un warm up", destination: "surLaGlace" },
+      { titre: "faire un warm up", destination: "surLaGlace" }
     ],
   },
   theKey: {
@@ -107,12 +108,25 @@ let chaptersObj = {
   },
 };
 
+const body = document.querySelector("body");
+
 function goToChapter(chapterName) {
+
+  let titre = document.querySelector("h2");
+  let text = document.querySelector(".para1");
+  let image = document.querySelector(".image");
+  let btn = document.querySelector(".option");
+
   if (chapterName in chaptersObj) {
     console.log(chaptersObj[chapterName].subtitle);
     console.log(chaptersObj[chapterName].text);
+    titre.innerText = chaptersObj[chapterName].subtitle;
+    text.innerText = chaptersObj[chapterName].text;
+    image.innerHTML = `<img src="${chaptersObj[chapterName].img}">`;
+
     for (let i = 0; i < chaptersObj[chapterName].boutons.length; i++) {
       console.log(chaptersObj[chapterName].boutons[i].destination);
+      
     }
   } else console.log("ce n'est pas un chapitre 🤡");
 }
