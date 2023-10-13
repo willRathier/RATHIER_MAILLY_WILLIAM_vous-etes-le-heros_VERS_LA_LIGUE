@@ -115,7 +115,11 @@ function goToChapter(chapterName) {
   let titre = document.querySelector("h2");
   let text = document.querySelector(".para1");
   let image = document.querySelector(".image");
-  let btn = document.querySelector(".option");
+  const btn = document.querySelector(".option");
+  
+  while (btn.firstChild) {
+    btn.removeChild(btn.firstChild);
+  }
 
   if (chapterName in chaptersObj) {
     console.log(chaptersObj[chapterName].subtitle);
