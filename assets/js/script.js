@@ -7,7 +7,7 @@ let chaptersObj = {
     boutons: [
       { titre: "smoothie", destination: "biere" },
       { titre: "boire un verre d'eau", destination: "camp" },
-      { titre: "boire une bière", destination: "camp" }
+      { titre: "boire une bière", destination: "camp" },
     ],
   },
   biere: {
@@ -24,7 +24,7 @@ let chaptersObj = {
     boutons: [
       { titre: "oublier son baton", destination: "theKey" },
       { titre: "arivver en retard", destination: "out" },
-      { titre: "faire un warm up", destination: "surLaGlace" }
+      { titre: "faire un warm up", destination: "surLaGlace" },
     ],
   },
   theKey: {
@@ -111,12 +111,11 @@ let chaptersObj = {
 const body = document.querySelector("body");
 
 function goToChapter(chapterName) {
-
   let titre = document.querySelector("h2");
   let text = document.querySelector(".para1");
   let image = document.querySelector(".image");
   const btn = document.querySelector(".option");
-  
+
   while (btn.firstChild) {
     btn.removeChild(btn.firstChild);
   }
@@ -130,7 +129,12 @@ function goToChapter(chapterName) {
 
     for (let i = 0; i < chaptersObj[chapterName].boutons.length; i++) {
       console.log(chaptersObj[chapterName].boutons[i].destination);
-      
+      const nouveauBtn = document.createElement("button");
+      nouveauBtn.textContent = chaptersObj[chapterName].boutons[i].titre;
+      nouveauBtn.addEventListener("click", () => {
+        goToChapter(chaptersObj[chapterName].boutons[i].destination);
+      });
+      btn.appendChild(nouveauBtn);
     }
   } else console.log("ce n'est pas un chapitre 🤡");
 }
