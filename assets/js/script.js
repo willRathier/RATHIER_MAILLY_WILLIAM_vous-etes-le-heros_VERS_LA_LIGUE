@@ -5,9 +5,9 @@ let chaptersObj = {
     text: "Dans la ville de Northville, Liam, un jeune passionné de hockey, passait chaque instant libre sur la patinoire. Son rêve était simple : devenir une légende du hockey sur glace.",
     img: "assets/images/joueur_intro.jpg",
     boutons: [
-      { titre: "smoothie", destination: "biere" },
+      { titre: "smoothie", destination: "camp" },
       { titre: "boire un verre d'eau", destination: "camp" },
-      { titre: "boire une bière", destination: "camp" },
+      { titre: "boire une bière", destination: "biere" },
     ],
   },
   biere: {
@@ -95,7 +95,7 @@ let chaptersObj = {
   },
   partisans: {
     subtitle: "Manque de jugement de ta part",
-    text: "Non mais mon homme tu fais quoi tu vas blesser quelqu'un.",
+    text: "Non mais mon homme tu fais quoi reste concentrer sur la glace",
     img: "assets/images/colere.jpg",
     boutons: [{ titre: "next", destination: "out" }],
   },
@@ -109,6 +109,7 @@ let chaptersObj = {
 };
 
 const body = document.querySelector("body");
+let twist = false;
 
 function goToChapter(chapterName) {
   let titre = document.querySelector("h2");
@@ -137,6 +138,9 @@ function goToChapter(chapterName) {
       btn.appendChild(nouveauBtn);
     }
   } else console.log("ce n'est pas un chapitre 🤡");
+  if (theKey) {
+    twist = true;
+  }
 }
 
 goToChapter("firstChapter");
