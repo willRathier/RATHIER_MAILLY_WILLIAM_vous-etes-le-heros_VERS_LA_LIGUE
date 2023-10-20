@@ -142,7 +142,7 @@ function goToChapter(chapterName) {
     twist = true;
   }
   if (cleDuChapitre == "rencontreDG" && twist == true) {
-    gotoChapter(fin);
+    gotoChapter("fin");
   }
 }
 
