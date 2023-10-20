@@ -109,7 +109,7 @@ let chaptersObj = {
 };
 
 const body = document.querySelector("body");
-let twist = false;
+let CEOMet = false;
 
 function goToChapter(chapterName) {
   let titre = document.querySelector("h2");
@@ -117,9 +117,7 @@ function goToChapter(chapterName) {
   let image = document.querySelector(".image");
   const btn = document.querySelector(".option");
 
-  while (btn.firstChild) {
-    btn.removeChild(btn.firstChild);
-  }
+  btn.innerHTML = "";
 
   if (chapterName in chaptersObj) {
     console.log(chaptersObj[chapterName].subtitle);
@@ -129,6 +127,10 @@ function goToChapter(chapterName) {
     image.innerHTML = `<img src="${chaptersObj[chapterName].img}">`;
 
     for (let i = 0; i < chaptersObj[chapterName].boutons.length; i++) {
+      if (chapterName == "rencontreDG" && CEOMet == false && i == 0) {
+        continue;
+      }
+
       console.log(chaptersObj[chapterName].boutons[i].destination);
       const nouveauBtn = document.createElement("button");
       nouveauBtn.textContent = chaptersObj[chapterName].boutons[i].titre;
@@ -138,11 +140,12 @@ function goToChapter(chapterName) {
       btn.appendChild(nouveauBtn);
     }
   } else console.log("ce n'est pas un chapitre 🤡");
-  if (cleDuChapitre == "theKey") {
-    twist = true;
+
+  if (chapterName == "theKey") {
+    CEOMet = true;
   }
-  if (cleDuChapitre == "rencontreDG" && twist == true) {
-    gotoChapter("fin");
+  if (chapterName == "fin" || chapterName == "out") {
+    CEOMet = false;
   }
 }
 
