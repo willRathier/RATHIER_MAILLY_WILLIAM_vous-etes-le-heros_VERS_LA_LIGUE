@@ -138,8 +138,11 @@ function goToChapter(chapterName) {
       btn.appendChild(nouveauBtn);
     }
   } else console.log("ce n'est pas un chapitre 🤡");
-  if (theKey) {
+  if (cleDuChapitre == "theKey") {
     twist = true;
+  }
+  if (cleDuChapitre == "rencontreDG" && twist == true) {
+    gotoChapter(fin);
   }
 }
 
