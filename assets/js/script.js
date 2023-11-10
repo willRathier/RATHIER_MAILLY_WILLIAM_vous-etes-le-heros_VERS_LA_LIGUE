@@ -1,4 +1,11 @@
 let chaptersObj = {
+  intro:{
+    subtitle: "Bonjour, voici mon jeu.",
+    text: "Fait par William Rathier Mailly",
+    boutons:[
+      {titre: "commncer", destination: "firstChapter"}
+    ]
+  },
   firstChapter: {
     subtitle: "Debout l'athlète",
     //chatGpt
@@ -41,8 +48,8 @@ let chaptersObj = {
     subtitle: "tu es sur la glace pour l'entrainement",
     //chatGpt
     text: "Nerveux et excité, Liam a enfilé son chandail de pratique pour sa toute première pratique avec l'équipe de de la ligue majeure, réalisant enfin son rêve d'enfance qui est de jouer dans la grande ligue avec les pros.",
-    media: "assets/images/training.jpg",
-    media_type: 'img',
+    media: "assets/videos/crosby_warmup.mp4",
+    media_type: 'video',
     boutons: [
       { titre: "tir partout", destination: "tirPartout" },
       { titre: "les partisans", destination: "partisans" },
@@ -51,8 +58,8 @@ let chaptersObj = {
   },
   teamMeeting: {
     subtitle: "Bien choisi",
-    text: "Les étirements aident à faire un bon entrainement. Tu es maintenant à la rencontre d'équipe.",
-    media: "assets/videos/crosby_warmup.mp4",
+    text: "Les étirements aident à faire un bon entrainement. Tu es maintenant dois aller à la rencontre d'équipe.",
+    media: "assets/videos/warmup_nhl.mp4",
     media_type: 'video',
     boutons: [
       { titre: "manger le diner", destination: "diner" },
@@ -124,6 +131,14 @@ let chaptersObj = {
 
 const body = document.querySelector("body");
 let CEOMet = false;
+const audioStart = new Audio ('assets/audio/are-you-ready.mp3');
+const gameOver = new Audio('assets/audio/game-over.wav');
+
+let chapterSave = localStorage.getItem("chapter");
+
+if (chapterSave = 0){
+
+}
 
 function goToChapter(chapterName) {
   let titre = document.querySelector("h2");
@@ -131,9 +146,11 @@ function goToChapter(chapterName) {
   let media = document.querySelector(".media");
   const btn = document.querySelector(".option");
   var msg = new SpeechSynthesisUtterance();
-  var message = new SpeechSynthesisUtterance();
+  const audio = new Audio('assets/audio/click.wav');
 
   btn.innerHTML = "";
+
+  localStorage.setItem("chapter", chapterName);
 
   if (chapterName in chaptersObj) {
     console.log(chaptersObj[chapterName].subtitle);
@@ -154,8 +171,6 @@ function goToChapter(chapterName) {
     }
     msg.text = chaptersObj[chapterName].subtitle;
     window.speechSynthesis.speak(msg);
-    message.text = chaptersObj[chapterName].text;
-    window.speechSynthesis.speak(message);
     
 
 
@@ -175,6 +190,7 @@ function goToChapter(chapterName) {
       });
       nouveauBtn.addEventListener("click", () => {
         goToChapter(chaptersObj[chapterName].boutons[i].destination);
+        audio.play();
       });
       btn.appendChild(nouveauBtn);
     }
@@ -186,11 +202,17 @@ function goToChapter(chapterName) {
   if (chapterName == "fin" || chapterName == "out") {
     CEOMet = false;
   }
+  if (chapterName == "firstChapter"){
+    audioStart.play();
+  }
+  if (chapterName == "out") {
+    gameOver.play();
+  }
 }
 
 
 
-goToChapter("firstChapter");
+goToChapter("intro");
 /*console.log(chaptersObj[chapterName].subtitle);
   console.log(chaptersObj[chapterName].text);
   for (let i = 0; i < chaptersObj[chapterName].boutons.length; i++) {
