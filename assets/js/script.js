@@ -2,7 +2,7 @@ let chaptersObj = {
   intro: {
     subtitle: "Bonjour, voici mon jeu.",
     text: "Fait par William Rathier Mailly",
-    boutons: [{ titre: "commncer", destination: "firstChapter" }],
+    boutons: [{ titre: "commencer", destination: "firstChapter" }],
   },
   firstChapter: {
     subtitle: "Debout l'athlète",
@@ -46,8 +46,8 @@ let chaptersObj = {
     media: "assets/images/confiance.jpg",
     media_type: "img",
     boutons: [
-      { titre: "recommencer", destination: "firstChapter" },
-      { titre: "Recommencer", destination: "intro" },
+      { titre: "D'accord", destination: "firstChapter" },
+      { titre: "recommencer", destination: "intro" },
     ],
   },
   surLaGlace: {
@@ -83,7 +83,6 @@ let chaptersObj = {
     boutons: [
       { titre: "oui", destination: "fin" },
       { titre: "non", destination: "grosNon" },
-      { titre: "Recommencer", destination: "intro" },
     ],
   },
   fin: {
@@ -91,10 +90,7 @@ let chaptersObj = {
     text: "Tu fais maintenant parti de l'équipe tu peux enfin signer ton premier contrat professionnel.",
     media: "assets/videos/pingouins.mp4",
     media_type: "video",
-    boutons: [
-      { titre: "recommencer", destination: "firstChapter" },
-      { titre: "Recommencer", destination: "intro" },
-    ],
+    boutons: [{ titre: "recommencer", destination: "intro" }],
   },
   grosNon: {
     subtitle: "Tu n'es pas le bienvenue ici",
@@ -152,25 +148,26 @@ let chaptersObj = {
     text: "Après un camp décevant, Liam a été retranché de son équipe de hockey, laissant derrière lui des souvenirs indélébiles et une détermination à revenir plus fort.",
     media: "assets/images/decu.jpg",
     media_type: "img",
-    boutons: [
-      { titre: "recommencer", destination: "firstChapter" },
-      { titre: "Recommencer", destination: "intro" },
-    ],
+    boutons: [{ titre: "Recommencer", destination: "intro" }],
   },
 };
-
+let TwistSave = localStorage.getItem("twist");
 const body = document.querySelector("body");
-let CEOMet = false;
+let CEOMet = TwistSave;
 const audioStart = new Audio("assets/audio/are-you-ready.mp3");
 const gameOver = new Audio("assets/audio/game-over.wav");
 
 let chapterSave = localStorage.getItem("chapter");
 
-// if ((chapterSave = chapterName)) {
-// goToChapter(chapterSave);
-// } else {
-// goToChapter("intro");
-// }
+if (CEOMet == undefined) {
+  CEOMet = false;
+}
+
+if (chapterSave == undefined) {
+  goToChapter("intro");
+} else {
+  goToChapter(chapterSave);
+}
 
 function goToChapter(chapterName) {
   let titre = document.querySelector("h2");
@@ -185,8 +182,6 @@ function goToChapter(chapterName) {
   localStorage.setItem("chapter", chapterName);
 
   if (chapterName in chaptersObj) {
-    console.log(chaptersObj[chapterName].subtitle);
-    console.log(chaptersObj[chapterName].text);
     titre.innerText = chaptersObj[chapterName].subtitle;
     text.innerText = chaptersObj[chapterName].text;
 
@@ -232,9 +227,11 @@ function goToChapter(chapterName) {
 
   if (chapterName == "theKey") {
     CEOMet = true;
+    localStorage.setItem("twist", CEOMet);
   }
   if (chapterName == "fin" || chapterName == "out") {
     CEOMet = false;
+    localStorage.setItem("twist", CEOMet);
   }
   if (chapterName == "firstChapter") {
     audioStart.play();
@@ -244,7 +241,6 @@ function goToChapter(chapterName) {
   }
 }
 
-goToChapter("intro");
 /*console.log(chaptersObj[chapterName].subtitle);
   console.log(chaptersObj[chapterName].text);
   for (let i = 0; i < chaptersObj[chapterName].boutons.length; i++) {
