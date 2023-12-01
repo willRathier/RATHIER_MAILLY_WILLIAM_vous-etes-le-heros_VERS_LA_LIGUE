@@ -154,10 +154,19 @@ let chaptersObj = {
 let TwistSave = localStorage.getItem("twist");
 const body = document.querySelector("body");
 let CEOMet = TwistSave;
+let muted = ((localStorage.getItem("MutedBox") || false) === 'true');
+let muteBox = document.querySelector(".input");
 const audioStart = new Audio("assets/audio/are-you-ready.mp3");
 const gameOver = new Audio("assets/audio/game-over.wav");
 
 let chapterSave = localStorage.getItem("chapter");
+
+muteBox.checked = muted;
+
+muteBox.addEventListener("click", function () {
+  muted = muteBox.checked;
+  localStorage.setItem("MutedBox", muted);
+});
 
 if (CEOMet == undefined) {
   CEOMet = false;
@@ -197,7 +206,9 @@ function goToChapter(chapterName) {
       video.play();
     }
     msg.text = chaptersObj[chapterName].subtitle;
-    window.speechSynthesis.speak(msg);
+    if (muted == false) {
+      window.speechSynthesis.speak(msg);
+    }
 
     for (let i = 0; i < chaptersObj[chapterName].boutons.length; i++) {
       if (chapterName == "rencontreDG" && CEOMet == false && i == 0) {
@@ -211,11 +222,15 @@ function goToChapter(chapterName) {
       nouveauBtn.addEventListener("mouseenter", function () {
         var choix = new SpeechSynthesisUtterance();
         choix.text = chaptersObj[chapterName].boutons[i].titre;
-        window.speechSynthesis.speak(choix);
+        if (muted == false) {
+          window.speechSynthesis.speak(choix);
+        }
       });
       nouveauBtn.addEventListener("click", () => {
         goToChapter(chaptersObj[chapterName].boutons[i].destination);
-        audio.play();
+        if (muted == false) {
+          audio.play();
+        }
       });
       nouveauBtn.lastChild.addEventListener("click", function () {
         localStorage.clear();
@@ -234,10 +249,14 @@ function goToChapter(chapterName) {
     localStorage.setItem("twist", CEOMet);
   }
   if (chapterName == "firstChapter") {
-    audioStart.play();
+    if (muted == false) {
+      audioStart.play();
+    }
   }
   if (chapterName == "out") {
-    gameOver.play();
+    if (muted == false) {
+      gameOver.play();
+    }
   }
 }
 
