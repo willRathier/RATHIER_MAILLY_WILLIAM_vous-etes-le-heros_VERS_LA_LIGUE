@@ -148,4 +148,26 @@ input {
     max-width: 100px;
     max-height: 100px;
   }
+  .game h1 {
+    margin: 0 0 5px 0;
+    background-repeat: no-repeat;
+    background-position: 50% 55%;
+    font-size: 20px;
+    text-align: center;
+    color: #252422;
+    padding: 5px;
+  }
+
+  .game h2 {
+    text-align: center;
+    font-size: 10px;
+    margin: 0 0 10px 0;
+    color: #252422;
+    padding: 10px;
+  }
+
+  .game p {
+    font-size: 7px;
+    padding: 5px;
+  }
 }
