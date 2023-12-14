@@ -138,4 +138,14 @@ input {
   body {
     height: 150vh;
   }
+
+  video {
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  img {
+    max-width: 100px;
+    max-height: 100px;
+  }
 }
