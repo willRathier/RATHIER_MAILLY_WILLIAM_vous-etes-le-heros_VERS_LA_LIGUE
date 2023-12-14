@@ -130,7 +130,7 @@ input {
     padding: 5px;
   }
   .game {
-    width: 100vh;
+    width: 200px;
     min-height: 100vh;
     border-radius: 5px;
     padding: 10px;
